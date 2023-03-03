@@ -1,0 +1,640 @@
+{
+  "id" : 1,
+  "name" : "Portal de Planejamento e Orçamento",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-03-03T12:44:00Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJQb3J0YWwgZGUgUGxhbmVqYW1lbnRvIGUgT3LDp2FtZW50byIgewoKICAgICFpZGVudGlmaWVycyBoaWVyYXJjaGljYWwKICAgICFkb2NzIGRvY3MKICAgICFhZHJzIGFkcnMKCiAgICBtb2RlbCB7CgogICAgICAgIHVzZXIgPSBwZXJzb24gIlVzdcOhcmlvIgogICAgICAgIGFkbWluID0gcGVyc29uICJBZG1pbmlzdHJhZG9yIgogICAgICAgIAogICAgICAgIHBkdCA9IHNvZnR3YXJlU3lzdGVtICJQb3J0YWwgZGEgVHJhbnNwYXLDqm5jaWEiICJSZXNwb25zw6F2ZWwgcGVsYSBleHRyYcOnw6NvIGJpbWVzdHJhbCBvdSBhbnVhbCAoZGVwZW5kZW5kbyBkYSBjb25zdWx0YSBlbSBxdWVzdMOjbykgYXDDs3MgYXV0b3JpemHDp8OjbyBkYSBTRVBMQUcgcGFyYSBkaXZ1bGdhw6fDo28gZW0gdHJhbnNwYXJlbmNpYS5tZy5nb3YuYnIvIiAiI2V4dGVybmFsLXN5c3RlbSIKICAgICAgICAKICAgICAgICBhcm1hemVtID0gc29mdHdhcmVTeXN0ZW0gIkFybWF6w6ltIFNJQUZJIiAiQXJtYXrDqW0gZGUgZGFkb3MgKEJhbmNvIE9yYWNsZSkgZGEgZXhlY3XDp8OjbyBvcsOnYW1lbnTDoXJpYSBlIGZpbmFuY2VpcmEgcHJvdmVuaWVudGVzIGRvIFNJQUZJIiAgIiNleHRlcm5hbC1zeXN0ZW0iIHsKICAgICAgICAgICAgZGIgPSBjb250YWluZXIgIkJhbmNvIFJlbGFjaW9uYWwiICIiICJPcmFjbGUiICIjZGIsICNleHRlcm5hbC1zeXN0ZW0iCiAgICAgICAgfQoKICAgICAgICBhZHNlZyA9IHNvZnR3YXJlU3lzdGVtICJTaXN0ZW1hIGRlIFNlZ3VyYW7Dp2EgKEFEU0VHKSIgIlJlc3BvbnPDoXZlbCBwZWxhIGF1dGVudGljYcOnw6NvIGRlIHVzdcOhcmlvcyIgIiNleHRlcm5hbC1zeXN0ZW0iCgogICAgICAgIHNpYWZpID0gc29mdHdhcmVTeXN0ZW0gIlNJQUZJIiAiTyBTaXN0ZW1hIEludGVncmFkbyBkZSBBZG1pbmlzdHJhw6fDo28gRmluYW5jZWlyYSAoTWFpbmZyYW1lKSDDqSBvIHJlc3BvbnPDoXZlbCBwZWxhIGV4ZWN1w6fDo28gb3LDp2FtZW50w6FyaWEgZSBmaW5hbmNlaXJhIGVzdGFkdWFsIiAiI2V4dGVybmFsLXN5c3RlbSIKCiAgICAgICAgZ3JwID0gc29mdHdhcmVTeXN0ZW0gIkdSUCIgIkZ1dHVybyByZXNwb25zw6F2ZWwgcGVsYSBleGVjdcOnw6NvIG9yw6dhbWVudMOhcmlhIGUgZmluYW5jZWlyYSBlc3RhZHVhbCBlbSBzdWJzdGl0dWnDp8OjbyBhbyBTSUFGSSBlIG3Ds2R1bG9zIGRlIG91dHJvcyBzaXN0ZW1hcyIgIiNleHRlcm5hbC1zeXN0ZW0iCgogICAgICAgIHNpZ2Nvbl9lbnRyYWRhID0gc29mdHdhcmVTeXN0ZW0gIlNJR0NPTi1FbnRyYWRhIiAiU2lzdGVtYSBkZSBHZXN0w6NvIGRlIENvbnbDqm5pb3MgZGUgRW50cmFkYSIgIiNleHRlcm5hbC1zeXN0ZW0iCgogICAgICAgIHNpZ2Nvbl9zYWlkYSA9IHNvZnR3YXJlU3lzdGVtICJTSUdDT04tU2HDrWRhIiAiU2lzdGVtYSBkZSBHZXN0w6NvIGRlIENvbnbDqm5pb3MgZGUgU2HDrWRhIiAiI2V4dGVybmFsLXN5c3RlbSIKCiAgICAgICAgYWxtZyA9IHNvZnR3YXJlU3lzdGVtICJBc3NlbWJsZWlhIExlZ2lzbGF0aXZhIiAiIiAiI2V4dGVybmFsLXN5c3RlbSIgewogICAgICAgICAgICBlbWVuZGFzID0gY29udGFpbmVyICJFbWVuZGFzIiAiIiAiIiAiI2V4dGVybmFsLXN5c3RlbSwgI2ZpbGUiCiAgICAgICAgfQogICAgICAgIAogICAgICAgIGdyb3VwICJQb3J0YWwgZGUgUGxhbmVqYW1lbnRvIGUgT3LDp2FtZW50byIgewoKICAgICAgICAgICAgc2lncGxhbiA9IHNvZnR3YXJlU3lzdGVtICJTSUdQTEFOIiB7CiAgICAgICAgICAgICAgICBhcHAgPSBjb250YWluZXIgIkFwbGljYcOnw6NvIFdFQiIgIiIgIkFTUCwgVkJTY3JpcHQsIElJUyIgIiNhcHAiCiAgICAgICAgICAgICAgICBkYiA9IGNvbnRhaW5lciAiQmFuY28gUmVsYWNpb25hbCIgIiIgIlNRTCBTZXJ2ZXIiICIjZGIiCiAgICAgICAgICAgICAgICBldGwgPSBjb250YWluZXIgIkVUTCIgIiIgIkluZm9ybWF0aWNhIFBvd2VyQ2VudGVyIiAiI2V0bCIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgc2lzb3IgPSBzb2Z0d2FyZVN5c3RlbSAiU0lTT1IiIHsKICAgICAgICAgICAgICAgIGFwcCA9IGNvbnRhaW5lciAiQXBsaWNhw6fDo28gV0VCIiAiIiAiSmF2YSIgIiNhcHAiCiAgICAgICAgICAgICAgICBkYiA9IGNvbnRhaW5lciAiQmFuY28gUmVsYWNpb25hbCIgIlJEQk1TIiAiT3JhY2xlIDE5YyIgIiNkYiIKICAgICAgICAgICAgICAgIGV0bCA9IGNvbnRhaW5lciAiRVRMIiAiIiAiSW5mb3JtYXRpY2EgUG93ZXJDZW50ZXIiICIjZXRsIgogICAgICAgICAgICAgICAgZW1haWwgPSBjb250YWluZXIgIlNlcnZpZG9yIEVtYWlsIiAiRW52aW8gZGUgZW1haWxzIGRlIG5vdGlmaWNhw6fDtWVzIGRlIHVzdcOhcmlvcyIKICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgICAgICM9PT09PT09PT09PT09PT09PT09PT09CiAgICAgICAgIyByZWxhY2lvbmFtZW50b3Mgc2lncGxhbgogICAgICAgIAogICAgICAgICMgc2lzdGVtYXMgZXh0ZXJub3MKICAgICAgICBwZHQgLT4gc2lncGxhbiAiRXh0cmFpIGRhZG9zIGRvIiAiSW5mb3JtYXRpY2EgUG93ZXJDZW50ZXIiCiAgICAgICAgc2lncGxhbiAtPiBhcm1hemVtICJFeHRyYWkgZGFkb3MgZG8iICJJbmZvcm1hdGljYSBQb3dlckNlbnRlciIKICAgICAgICBzaWdwbGFuIC0+IGFsbWcgIkVudmlhIGUgaW1wb3J0YSBkYWRvcyBkZSIgIkFycXVpdm9zIFRYVCIKICAgICAgICBzaWdwbGFuIC0+IHNpYWZpICJFbnZpYSBkYWRvcyBwYXJhIiAiQXJxdWl2b3MgVFhUIgogICAgICAgIHNpZ3BsYW4uYXBwIC0+IHNpc29yLmRiICJDYXJyZWdhIGRhZG9zIG5vIiAiT0RCQyIKCiAgICAgICAgIyBpbnRlcm5vcwoKICAgICAgICAjPT09PT09PT09PT09PT09PT09PT09PQogICAgICAgICMgcmVsYWNpb25hbWVudG9zIHNpc29yCgogICAgICAgICMgc2lzdGVtYXMgZXh0ZXJub3MKCiAgICAgICAgcGR0IC0+IHNpc29yICJFeHRyYWkgZGFkb3MgZG8iICJJbmZvcm1hdGljYSBQb3dlckNlbnRlciIKICAgICAgICBzaXNvciAtPiBhcm1hemVtICJFeHRyYWkgZGFkb3MgZG8iICJJbmZvcm1hdGljYSBQb3dlckNlbnRlciIKICAgICAgICBzaXNvciAtPiBhZHNlZyAiQXV0ZW50aWNhIHVzdcOhcmlvIG5vIiAiSUJNIFJBQ0Ygei9PUyIKICAgICAgICBzaXNvciAtPiBzaWFmaSAiRW52aWEgZGFkb3MgcGFyYSIgIkJyb2tlciIKICAgICAgICBzaWdjb25fZW50cmFkYSAtPiBzaXNvciAiTGVpdHVyYSBkZSBkYWRvcyBkbyIKICAgICAgICBzaWdjb25fc2FpZGEgLT4gc2lzb3IgIkxlaXR1cmEgZGUgZGFkb3MgZG8iICJEQkxpbmsiCiAgICAgICAgc2lzb3IgLT4gYWxtZyAiRW52aWEgZSBpbXBvcnRhIGRhZG9zIGRvIiAiQXJxdWl2b3MgVFhUIgogICAgICAgIHNpc29yLmFwcCAtPiBzaWdwbGFuLmRiICJMZWl0dXJhIGRlIGRhZG9zIGRvIgoKCiAgICAgICAgIyBpbnRlcm5vcwoKCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICAKICAgICAgICBzeXN0ZW1Db250ZXh0IHNpZ3BsYW4gInNpZ3BsYW5EaWFncmFtYUNvbnRleHRvInsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGluY2x1ZGUgZ3JwCiAgICAgICAgICAgIGF1dG9sYXlvdXQgdGIKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBzaWdwbGFuICJzaWdwbGFuRGlhZ3JhbWFDb250YWluZXIiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgdGIKICAgICAgICB9CgogICAgICAgIHN5c3RlbUNvbnRleHQgc2lzb3IgInNpc29yRGlhZ3JhbWFDb250ZXh0byJ7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBpbmNsdWRlIGdycAogICAgICAgICAgICBhdXRvbGF5b3V0IHRiCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgc2lzb3IgInNpc29yRGlhZ3JhbWFDb250YWluZXIiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgdGIKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgc2hhcGUgcGVyc29uCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIiNhcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3gKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAiI2RiIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICIjZXh0ZXJuYWwtc3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiI2ZpbGUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEZvbGRlcgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICIjZXRsIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "Usuário",
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "admin"
+      },
+      "name" : "Administrador",
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System,#external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "pdt"
+      },
+      "name" : "Portal da Transparência",
+      "description" : "Responsável pela extração bimestral ou anual (dependendo da consulta em questão) após autorização da SEPLAG para divulgação em transparencia.mg.gov.br/",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "13",
+        "description" : "Extrai dados do",
+        "technology" : "Informatica PowerCenter"
+      }, {
+        "id" : "30",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "17",
+        "description" : "Extrai dados do",
+        "technology" : "Informatica PowerCenter"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,#external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "armazem"
+      },
+      "name" : "Armazém SIAFI",
+      "description" : "Armazém de dados (Banco Oracle) da execução orçamentária e financeira provenientes do SIAFI",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container,#db,#external-system",
+        "properties" : {
+          "structurizr.dsl.identifier" : "armazem.db"
+        },
+        "name" : "Banco Relacional",
+        "technology" : "Oracle",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,#external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "adseg"
+      },
+      "name" : "Sistema de Segurança (ADSEG)",
+      "description" : "Responsável pela autenticação de usuários",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System,#external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "siafi"
+      },
+      "name" : "SIAFI",
+      "description" : "O Sistema Integrado de Administração Financeira (Mainframe) é o responsável pela execução orçamentária e financeira estadual",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System,#external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "grp"
+      },
+      "name" : "GRP",
+      "description" : "Futuro responsável pela execução orçamentária e financeira estadual em substituição ao SIAFI e módulos de outros sistemas",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System,#external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sigcon_entrada"
+      },
+      "name" : "SIGCON-Entrada",
+      "description" : "Sistema de Gestão de Convênios de Entrada",
+      "relationships" : [ {
+        "id" : "34",
+        "tags" : "Relationship",
+        "sourceId" : "9",
+        "destinationId" : "17",
+        "description" : "Leitura de dados do"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "10",
+      "tags" : "Element,Software System,#external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sigcon_saida"
+      },
+      "name" : "SIGCON-Saída",
+      "description" : "Sistema de Gestão de Convênios de Saída",
+      "relationships" : [ {
+        "id" : "35",
+        "tags" : "Relationship",
+        "sourceId" : "10",
+        "destinationId" : "17",
+        "description" : "Leitura de dados do",
+        "technology" : "DBLink"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "11",
+      "tags" : "Element,Software System,#external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "almg"
+      },
+      "name" : "Assembleia Legislativa",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "12",
+        "tags" : "Element,Container,#external-system,#file",
+        "properties" : {
+          "structurizr.dsl.identifier" : "almg.emendas"
+        },
+        "name" : "Emendas",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "13",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sigplan"
+      },
+      "name" : "SIGPLAN",
+      "relationships" : [ {
+        "id" : "23",
+        "tags" : "Relationship",
+        "sourceId" : "13",
+        "destinationId" : "4",
+        "description" : "Extrai dados do",
+        "technology" : "Informatica PowerCenter"
+      }, {
+        "id" : "24",
+        "tags" : "Relationship",
+        "sourceId" : "13",
+        "destinationId" : "11",
+        "description" : "Envia e importa dados de",
+        "technology" : "Arquivos TXT"
+      }, {
+        "id" : "25",
+        "tags" : "Relationship",
+        "sourceId" : "13",
+        "destinationId" : "7",
+        "description" : "Envia dados para",
+        "technology" : "Arquivos TXT"
+      }, {
+        "id" : "28",
+        "sourceId" : "13",
+        "destinationId" : "19",
+        "description" : "Carrega dados no",
+        "technology" : "ODBC",
+        "linkedRelationshipId" : "26"
+      }, {
+        "id" : "29",
+        "sourceId" : "13",
+        "destinationId" : "17",
+        "description" : "Carrega dados no",
+        "technology" : "ODBC",
+        "linkedRelationshipId" : "26"
+      } ],
+      "group" : "Portal de Planejamento e Orçamento",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "15",
+        "tags" : "Element,Container,#db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sigplan.db"
+        },
+        "name" : "Banco Relacional",
+        "technology" : "SQL Server",
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,#etl",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sigplan.etl"
+        },
+        "name" : "ETL",
+        "technology" : "Informatica PowerCenter",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,#app",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sigplan.app"
+        },
+        "name" : "Aplicação WEB",
+        "relationships" : [ {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "14",
+          "destinationId" : "19",
+          "description" : "Carrega dados no",
+          "technology" : "ODBC"
+        }, {
+          "id" : "27",
+          "sourceId" : "14",
+          "destinationId" : "17",
+          "description" : "Carrega dados no",
+          "technology" : "ODBC",
+          "linkedRelationshipId" : "26"
+        } ],
+        "technology" : "ASP, VBScript, IIS",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "17",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sisor"
+      },
+      "name" : "SISOR",
+      "relationships" : [ {
+        "id" : "31",
+        "tags" : "Relationship",
+        "sourceId" : "17",
+        "destinationId" : "4",
+        "description" : "Extrai dados do",
+        "technology" : "Informatica PowerCenter"
+      }, {
+        "id" : "32",
+        "tags" : "Relationship",
+        "sourceId" : "17",
+        "destinationId" : "6",
+        "description" : "Autentica usuário no",
+        "technology" : "IBM RACF z/OS"
+      }, {
+        "id" : "33",
+        "tags" : "Relationship",
+        "sourceId" : "17",
+        "destinationId" : "7",
+        "description" : "Envia dados para",
+        "technology" : "Broker"
+      }, {
+        "id" : "36",
+        "tags" : "Relationship",
+        "sourceId" : "17",
+        "destinationId" : "11",
+        "description" : "Envia e importa dados do",
+        "technology" : "Arquivos TXT"
+      }, {
+        "id" : "39",
+        "sourceId" : "17",
+        "destinationId" : "15",
+        "description" : "Leitura de dados do",
+        "linkedRelationshipId" : "37"
+      }, {
+        "id" : "40",
+        "sourceId" : "17",
+        "destinationId" : "13",
+        "description" : "Leitura de dados do",
+        "linkedRelationshipId" : "37"
+      } ],
+      "group" : "Portal de Planejamento e Orçamento",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "18",
+        "tags" : "Element,Container,#app",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sisor.app"
+        },
+        "name" : "Aplicação WEB",
+        "relationships" : [ {
+          "id" : "37",
+          "tags" : "Relationship",
+          "sourceId" : "18",
+          "destinationId" : "15",
+          "description" : "Leitura de dados do"
+        }, {
+          "id" : "38",
+          "sourceId" : "18",
+          "destinationId" : "13",
+          "description" : "Leitura de dados do",
+          "linkedRelationshipId" : "37"
+        } ],
+        "technology" : "Java",
+        "documentation" : { }
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container,#db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sisor.db"
+        },
+        "name" : "Banco Relacional",
+        "description" : "RDBMS",
+        "technology" : "Oracle 19c",
+        "documentation" : { }
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container,#etl",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sisor.etl"
+        },
+        "name" : "ETL",
+        "technology" : "Informatica PowerCenter",
+        "documentation" : { }
+      }, {
+        "id" : "21",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sisor.email"
+        },
+        "name" : "Servidor Email",
+        "description" : "Envio de emails de notificações de usuários",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "title" : "Container",
+      "content" : "## Container\n\nDiagramas de containers do [modelo c4](https://c4model.com/) para SIGPLAN e SISOR:\n\n![](embed:sigplanDiagramaContainer)\n\n![](embed:sisorDiagramaContainer)",
+      "format" : "Markdown",
+      "filename" : "02-container.md",
+      "order" : 2
+    }, {
+      "title" : "SISOR",
+      "content" : "## SISOR\n\n### Integrações\n\n#### Portal da Transparência\n\nA integração SISOR/SIGPLAN com Portal da Transparência se dá através de acesso do Portal, via ferramenta de ETL e rotinas de carga, em algumas tabelas desses sistemas. Por meio de acesso bimestral ou anual (dependendo da consulta em questão), a atualização é feita no Portal. As cargas não tem agendamento periódico e são executadas de acordo com o momento dos sistemas e autorização da SEPLAG.\n\nTabelas que o Portal da Transparência acessa do SISOR (banco oracle, esquema AOAD):\n\n- `TBDETOBRAS`\n- `TBEMENDAS`\n- `TBMUNICIPOBRAS`\n- `TBORCAMENTODESPESA`\n- `TBORCAMENTODESPESA_PLURIAN`\n- `TBORCAMENTOEMENDAFISCAL`\n- `TBPROGTRABALHO`\n- `TXCATEGORIA`\n- `TXFONTE`\n- `TXFONTE`\n- `TXFUNCAO`\n- `TXGRUPODESPESA`\n- `TXIPE`\n- `TXMODALIDADE`\n- `TXMUNICIPIO_SIGPLAN`\n- `TXORGAOS`\n- `TXPROCEDENCIA`\n- `TXPROCEDENCIA`\n- `TXPROGRAMA`\n- `TXPROJATIV`\n- `TXREGIAO_SIGPLAN`\n- `TXSUBFUNCAO`\n- `TXUNIDADEMEDIDA`\n- `TXUNIDADEORCAMENTARIA`\n\n#### Armazém SIAFI\n\nIntegração se dá através de mapas de carga, executados diariamente através de agendamento, que buscam dados no Armazem SIAFI e inserem no banco SISOR\n\n#### ADSEG (Sistema de Segurança)\n\nA página de login do Portal Sisor envia login e senha para o sistema ADSEG validar e este verifica se o usuário tem permissão para acessar o sistema e se a senha é válida. Caso positivo, retorna que o acesso está liberado para o SISOR e quais Unidades o usuário tem permissão de acesso. A administração de perfis, usuários, etc. é feita diretamente pelo cliente SEPLAG no sistema ADSEG.\n\n#### SIAFI\n\nSão feitas as integrações listadas abaixo:\n\n- na vinculação da classificação da receita criada no SISOR ao SIAFI.\n- no envio para o SIAFI das criações e/ou alterações feitas no SISOR para os dados de função, modalidade, natureza da despesa, órgãos, procedência, programa, projeto atividade, subfunção, unidade orçamentária. \n\n#### Sistema de Gestão de Convênios de Entrada (SIGCON-Entrada)\n\nOs sistemas utilizam a mesma base de dados para os seguintes dados: TA, Concedente, Portaria, Bloqueio de contrato, Bloqueio de convenio entre outros. \n\n#### Sistema de Gestão de Convênios de Saída (SIGCON-Saída)\n\nO Sigcon Saída (banco Oracle) faz consultas relativas a UO, Órgão, Ações, Programa, Grupo de despesa e Função no banco de dados do SISOR a partir de Dblinks\n\n#### Assembleia Legislativa\n\nTodos os anos são gerados arquivos de texto com extensão .txt e enviados para ALMG para importação no sistema interno deles, após os ajustes a ALMG gera os arquivosde texto com extensão .txt  de emenda e importamos para o sistema Sisor e Sigplan\n\n#### SIGPLAN\n\nO SISOR acessa o banco do SIGPLAN para realizar consultas dos Localizadores, Indicadores, Ações, Produtos, Programas, dentre outros. \n\n#### GRP",
+      "format" : "Markdown",
+      "filename" : "03-integracoes-sisor.md",
+      "order" : 4
+    }, {
+      "title" : "Contexto",
+      "content" : "## Contexto\n\nDiagramas de contexto do [modelo c4](https://c4model.com/) para SIGPLAN e SISOR:\n\n![](embed:sigplanDiagramaContexto)\n\n\n![](embed:sisorDiagramaContexto)",
+      "format" : "Markdown",
+      "filename" : "01-context.md",
+      "order" : 1
+    }, {
+      "title" : "SIGPLAN",
+      "content" : "## SIGPLAN\n\n### Integrações\n\n#### Portal da Transparência\n\nA integração SISOR/SIGPLAN com Portal da Transparência se dá através de acesso do Portal, via ferramenta de ETL e rotinas de carga, em algumas tabelas desses sistemas. Por meio de acesso bimestral ou anual (dependendo da consulta em questão), a atualização é feita no Portal. As cargas não tem agendamento periódico e são executadas de acordo com o momento dos sistemas e autorização da SEPLAG.\n\nTabelas que o Portal da Transparência acessa do SIGPLAN (banco SQLServer):\n\n- `sig2000 LocalizadorRascunho`\n- `sig2000 SituacaoAcaoRascunho`\n- `sig2000 DadoFinanceiroRascunho`\n- `sig2000 DadoFisicoRascunho`\n- `sig2000 OrcamentoGeralUniao`\n- `sig2000 Indicador`\n- `Sigplan Usuario`\n- `Sigplan UsuarioNivel`\n- `sigplan PPA`\n- `Sigplan NivelAcesso`\n- `Sigplan DetalhesUsuario`\n- `sigplan_20XX PPAUnidade`\n- `sigplan_20XX PPAFuncao`\n- `sigplan_20XX TipoAcao`\n- `sigplan_20XX Municipio`\n- `sigplan_20XX PPAIndicador`\n- `sigplan_20XX PPAPrograma`\n- `sigplan_20XX PPALocalizador`\n- `sigplan_20XX PPAAcao`\n- `sigplan_20XX PPASubFuncao`\n- `sigplan_20XX PPAIag`\n- `sigplan_20XX PPAPublicoAlvo`\n- `sigplan_20XX Produto`\n- `sigplan_20XX UnidadeMedida`\n- `sigplan_20XX UnidadeMedidaIndicador`\n- `sigplan_20XX Periodicidade`\n- `sigplan_20XX BaseGeografica`\n- `sigplan_20XX PPAOrgao`\n- `sigplan_2022 PPACausa`\n- `sigplan_2022 Regiao`\n\n#### Armazém SIAFI\n\nIntegração se dá através de mapas de carga, executados diariamente através de agendamento, que buscam dados no Armazem SIAFI e inserem no banco SISOR\n\n#### ALMG\n\nTodos os anos são gerados arquivos de texto com extensão .txt e enviados para ALMG para importação no sistema interno deles, após os ajustes a ALMG gera os arquivosde texto com extensão .txt  de emenda e importamos para o sistema Sisor e Sigplan\n\n#### SIAFI\n\nSemestralmente, com autorização da SEPLAG, é gerado um arquivo de texto, extensão .txt, com dados de localizadores e ações do SIGPLAN, através do módulo de Monitoramento. É feita também uma solicitação interna a área de inteligência de dados para a geração dos arquivos de texto, extensão .txt, \"consol_desp_almg\" e \"invest_regionaliz_almg.\", com os dados do Armazém SIAFI. Esses arquivos são enviados para o responsável na ALMG via email.\n\n#### SISOR\n\nO SIGPLAN (SQLServer) envia dados de ações, programas, metas, produtos entre outros, para o banco de dados do  SISOR (Oracle). A comunicação é realizada através da criação de um usuário ODBC Oracle no servidor de aplicação do SIGPLAN.\n\n#### GRP\n",
+      "format" : "Markdown",
+      "filename" : "03-integracoes-sigplan.md",
+      "order" : 3
+    } ],
+    "decisions" : [ {
+      "title" : "Record architecture decisions",
+      "content" : "# 1. Record architecture decisions\n\nDate: 2023-03-03\n\n## Status\n\nAccepted\n\n## Context\n\nWe need to record the architectural decisions made on this project.\n\n## Decision\n\nWe will use Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).\n\n## Consequences\n\nSee Michael Nygard's article, linked above. For a lightweight ADR toolset, see Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools).\n",
+      "format" : "Markdown",
+      "id" : "1",
+      "date" : "2023-03-03T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "title" : "Autenticação via SSC PRODEMGE",
+      "content" : "# 2. Autenticação via SSC PRODEMGE\n\nDate: 2023-03-03\n\n## Status\n\nAccepted\n\n## Context\n\nThe issue motivating this decision, and any context that influences or constrains the decision.\n\n## Decision\n\nThe change that we're proposing or have agreed to implement.\n\n## Consequences\n\nWhat becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.\n",
+      "format" : "Markdown",
+      "id" : "2",
+      "date" : "2023-03-03T00:00:00Z",
+      "status" : "Accepted"
+    } ]
+  },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "sigplanDiagramaContexto",
+      "order" : 1,
+      "softwareSystemId" : "13",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "40"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "30"
+      } ]
+    }, {
+      "key" : "sisorDiagramaContexto",
+      "order" : 3,
+      "softwareSystemId" : "17",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "9",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "10",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "40"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "29"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "22"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "sigplanDiagramaContainer",
+      "order" : 2,
+      "softwareSystemId" : "13",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "14",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "15",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "16",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "27"
+      }, {
+        "id" : "39"
+      } ]
+    }, {
+      "key" : "sisorDiagramaContainer",
+      "order" : 4,
+      "softwareSystemId" : "17",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "19",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "20",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "21",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "38"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "shape" : "Person"
+        }, {
+          "tag" : "#app",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "#db",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "#external-system",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "#file",
+          "shape" : "Folder"
+        }, {
+          "tag" : "#etl",
+          "shape" : "Pipe"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { }
+    }
+  }
+}

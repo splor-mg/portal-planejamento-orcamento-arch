@@ -1,6 +1,12 @@
 # Arquitetura do Portal de Planejamento e Orçamento
 
-Essa documentação está sendo construída utilizando o [modelo c4](https://c4model.com/) para visualização da arquitetura de software em conjunto com a ferramenta [structurizr](https://structurizr.com/) para produção dos diagramas.
+O [Portal de Planejamento e Orçamento](http://www.orcamento.mg.gov.br/) é composto pelo Sistema de Informações Gerenciais e de Planejamento (SIGPLAN) e pelo Sistema Orçamentário (SISOR). 
+
+Uma versão estática do código fonte obtida junto a [Prodemge](https://www.prodemge.gov.br/) está disponível nos repositórios privados [splor-mg/sigplan](https://github.com/splor-mg/sigplan) e [splor-mg/sisor](https://github.com/splor-mg/sisor).
+
+Esse repositório é um esforço de construção de documentação para visualização da arquitetura atual do SIGPLAN e SISOR utilizando o [modelo c4](https://c4model.com/) e a ferramenta [structurizr](https://structurizr.com/).
+
+A última versão pode ser visualizada [aqui](https://htmlpreview.github.io/?https://github.com/splor-mg/portal-planejamento-orcamento-arch/blob/main/index.html).
 
 ## Geração da documentação
 
